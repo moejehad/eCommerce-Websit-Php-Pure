@@ -1,0 +1,1683 @@
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.ttf) format('truetype');
+}
+
+@font-face{font-family:'sky-bold';src: url('https://www.fontstatic.com/fonts/sky-bold/sky-bold.eot?#iefix');src: local('السماء ثقيل'), local('sky-bold'),url('https://www.fontstatic.com/fonts/sky-bold/sky-bold.woff') format('woff');}
+
+
+body {
+    background-color: #fff;
+    direction: rtl;
+}
+.yelstore {
+    background: linear-gradient(32deg,#FFFF00 0,#FFFF33 66%,#FFFF66 88%,#FFFF99 100%);
+    height: 15vh;
+    overflow: hidden;
+    padding: 7px 0;
+}
+
+/*====== الهيدر ======*/
+.yelsto {
+    background: linear-gradient(32deg,#FFFF00 0,#FFFF33 66%,#FFFF66 88%,#FFFF99 100%);
+    height: 100vh;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.top-menu .logo {
+    width: 22%;
+}
+.top-menu .logo a {
+    float: right;
+}
+.top-menu img {
+    width: 125px;
+    padding: 5px;
+}
+.top-menu a {
+    color: #000;
+    text-decoration: none;
+}
+
+.active_member {
+    font-size: 15px;
+    background: #e24040;
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+}
+.yelsto .main-header {
+    overflow: hidden;
+}
+.yelsto .main-header .info {
+    font: normal normal 12px sky-bold, Fontawesome;
+    text-align: right;
+    margin: 25vh 0;
+}
+
+.yelsto .main-header .img {
+    width: 600px;
+    height: auto;
+}
+
+.yelsto .main-header .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.yelsto .main-header .info .title {
+    margin-bottom: 30px;
+    font-size: 60px;
+    text-shadow: 0px 2px #f7f7f7;
+}
+.yelsto .main-header .info .desc {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.yelsto .main-header .info .btn {
+    background: linear-gradient(32deg,#00FF00 0,#00FF33 66%,#00FF66 88%,#00FF99 100%);
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+    margin-left: 10px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: all 250ms ease-in;
+}
+.yelsto .main-header .info .btn:hover {
+    transition: all 250ms ease-in-out;
+    transform: translateY(-4px);
+    box-shadow: 0 2px 30px 0px rgba(0,0,0,0.2);
+}
+.yelsto .navbar-nav , .yelstore .navbar-nav {
+    margin: 0;
+    padding: 5px 0;
+    list-style-type: none;
+    margin-left: 20px;
+}
+.yelsto ul li.nav-item , .yelstore ul li.nav-item {
+    float: right;
+    margin: 20px 30px 0 0;
+    font: normal normal 12px sky-bold, Fontawesome;
+}
+.yelsto ul li.nav-item .nav-link ,.yelstore ul li.nav-item .nav-link {
+    font-size: 16px;
+}
+.yelsto ul li.nav-item .nav-link:hover, .yelstore ul li.nav-item .nav-link:hover , .prfo span:hover {
+    color: #666;
+}
+.yelsto .top-menu .login .btn , .yelstore .top-menu .login .btn , .prf .btn{
+    background: transparent;
+    color: #000;
+    font: normal normal 12px sky-bold, Fontawesome;
+    border-radius: 25px;
+    margin: 14px 0;
+    font-size: 13px;
+    border: 1px solid #000;
+    transition: all 250ms ease-in;
+    
+}
+.yelsto .top-menu .login .btn:hover , .yelstore .top-menu .login .btn:hover , .prf .btn:hover , .prfo span:hover {
+    background: #fff;
+    border: 1px solid #fff;
+    transition: all 250ms ease-in-out;
+    transform: translateY(-4px);
+    box-shadow: 0 2px 30px 0px rgba(0,0,0,0.2);
+}
+
+
+/*----------------------------------------------------------------------------*/
+
+
+
+/* ------------ الية العمل --------------------------*/
+
+.account {
+    padding: 120px 0;
+    font: normal normal 12px sky-bold, Fontawesome;
+    overflow: hidden;
+}
+.account .title {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.account .desc {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.account .acc {
+    padding: 20px 0;
+}
+.account .acc .col-md-6 {
+    width: 49%;
+    margin-left: 1%;
+    border-radius: 20px;
+    padding: 20px 40px 0 0;
+    color: #fff;
+    transition: all 250ms ease-in;
+}
+.account .acc .col-md-6:hover {
+    transition: all 250ms ease-in-out;
+    transform: translateY(-4px);
+    box-shadow: 0 2px 30px 0px rgba(0,0,0,0.2);
+}
+.account .acc .col-md-6 h4 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.account .acc .col-md-6 p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.account .acc .seller {
+    background: linear-gradient(135deg,#00deff 0,#02caff 56%,#03b5ff 100%);
+}
+.account .acc .buyer {
+    background: linear-gradient(45deg,#fd3fb3 0,#fd3f81 30%,#fd3e4f 79%);
+}
+.account .acc img {
+    width: 140px;
+    padding: 0 20px;
+    margin-left: 10px;
+}
+.account .acc .col-md-6 .info {
+    width: 70%;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+
+/*---------- لماذا يلو --------------------*/
+.YellowStore {
+    font: normal normal 12px sky-bold, Fontawesome;
+    overflow: hidden;
+    padding: 80px 0;
+}
+.YellowStore h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.YellowStore p {
+    color: #fff;
+    font-size: 17px;
+}
+
+/*---------------------------------------*/
+
+
+/*-------------- لماذا رقمية -----------------*/ 
+
+.whyYellow {
+    padding: 100px 0;
+    font: normal normal 12px sky-bold, Fontawesome;
+    overflow: hidden;
+}
+.whyYellow h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.whyYellow .col-md-3 {
+    text-align: center;
+    margin-top: 35px;
+}
+.whyYellow .mb-4 {
+    margin-bottom: 30px;
+}
+.whyYellow .mb-4 .icon-sr {
+    background: linear-gradient(32deg,#FFFF00 0,#FFFF33 66%,#FFFF66 88%,#FFFF99 100%);
+    padding: 10px 0;
+    border-radius: 50px;
+    width: 60px;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    box-shadow: rgba(47, 84, 235, 0.12) 0px 6px 12px;
+    transition: all 250ms ease-in;
+}
+.whyYellow .mb-4 .icon-sr:hover {
+    transition: all 250ms ease-in-out;
+    transform: translateY(-4px);
+    box-shadow: 0 2px 30px 0px rgba(0,0,0,0.2);
+}
+.whyYellow .mb-4 .icon-sr i {
+    color: #555;
+}
+.whyYellow h5 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #666;
+}
+.whyYellow p {
+    color: #666;
+    font-size: 12px;
+}
+
+/*------------------------------------------------------------*/
+
+
+/*---------------- start --------------*/
+
+.start {
+    background: linear-gradient(32deg,#FFFF99 0,#FFFF33 66%,#FFFF33 88%,#FFFF00 100%);
+    padding: 50px 0;
+    text-align: right;
+    font: normal normal 12px sky-bold, Fontawesome;
+    overflow: hidden;
+}
+.start .text {
+    padding: 30px 0;
+}
+.start h2 {
+    margin-bottom: 35px;
+}
+.start p {
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.start .img {
+    text-align: left;
+    width: 350px;
+    height: auto;
+}
+.start .img img {
+    width: 100%;
+    height: 100%;
+}
+.start .btn {
+    background: transparent;
+    color: #666;
+    border: 1px solid #666;
+    border-radius: 25px;
+    margin-left: 15px;
+    transition: all 250ms ease-in-out;
+    transform: translateY(-4px);
+    box-shadow: 0 2px 30px 0px rgba(0,0,0,0.2);
+}
+
+
+/*-------------------------------------------------------*/
+
+/*---------- footer ----------------------------------*/
+.footer {
+    overflow: hidden;
+    padding: 50px 0 0 0 ;
+    font: normal normal 12px sky-bold, Fontawesome;
+}
+.footer .col-sm-4 {
+    float: right;
+}
+.footer .col-sm-4 h3 {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.footer .col-sm-4 ul {
+    margin: 0;
+    padding: 5px 0;
+    list-style-type: none;
+}
+.footer .col-sm-4 ul li {
+    padding: 5px 0;
+}
+.footer .col-sm-4 ul li a {
+    color: #666;
+    font-size: 13px;
+    text-decoration: none;
+}
+.footer .col-sm-4 .list-meta {
+    margin-bottom: 28px;
+}
+.footer .col-sm-4 .list-meta li {
+    padding-right: 0;
+    margin-bottom: .5em;
+    font-size: 13px;
+    display: inline-block;
+    padding-left: 5px;
+}
+.footer .col-sm-4 .list-meta li .btn {
+    color: #fff;
+    border: 0;
+    padding: 10px 8px;
+    font-size: 17px;
+    border-radius: 50px;
+    line-height: 0.7;
+}
+.btn.btn-facebook {
+    background: #3b5998;
+}
+
+.btn.btn-twitter {
+    background: #55acee;
+}
+.btn.btn-instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+.footer__rights {
+    padding: 10px 0;
+    background: #f5f5f5;
+}
+
+/*-------------------------------------------------------------------*/
+
+/*------------ about -- protect  -- terms -- privacy --------------------------------*/
+
+.about , .protect , .terms , .privacy , .sellers {
+    padding: 80px 0;
+    font: normal normal 12px sky-bold, Fontawesome;
+    overflow: hidden;
+}
+.protect p , .privacy p {
+    font-size: 13px;
+    color: #666;
+}
+.terms h2 {
+    margin-bottom: 30px;
+}
+.privacy h1 {
+    color: #000;
+    font-size: 29px;
+    margin-bottom: 30px;
+}
+.terms .img img {
+    width: 100%;
+    height: 100%;
+}
+.terms .img {
+    width: 300px;
+    height: auto;
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+/*------------ contact ----------------------------------------------------------*/
+
+.contact {
+    padding: 0 0 30px 0;
+    font: normal normal 12px sky-bold, Fontawesome;
+    overflow: hidden;
+}
+.contact .informations {
+    overflow: hidden;
+    background: linear-gradient(32deg,#FFFF00 0,#FFFF33 80%,#FFFF66 96%,#FFFF99 100%);
+    margin-bottom: 50px;
+}
+
+.contact .informations .image {
+    width: 300px;
+    height: auto;
+}
+
+.contact .informations .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact .informations .det {
+    padding: 25px 0;
+}
+.contact .informations .det h3 {
+    margin-bottom: 30px;
+    font-size: 27px;
+}
+.contact .informations .det p {
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+.contact .informations h5 {
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+.contact .informations h5 i {
+    margin-left: 10px;
+    font-size: 14px;
+}
+.contact form {
+    max-width: 700px;
+    margin: auto;
+    float: none;
+}
+.contact form .col-md-6 label , .contact form .col-md-12 label {
+    font-size: 13px;
+    margin: 5px 12px;
+}
+
+.contact form .col-md-6 input , .contact form .col-md-6 select, .contact form .col-md-12 textarea  {
+    margin: 5px 0;
+    box-shadow: none;
+    border-radius: 50px;
+}
+.contact form .col-md-12 textarea {
+    border-radius: 20px;
+}
+
+.contact form .col-md-12 .btn.btn-success {
+    background: linear-gradient(32deg,#FFFF00 0,#FFFF33 80%,#FFFF66 96%,#FFFF99 100%);
+    color: #555;
+    border: 1px solid #6666661c;
+    padding: 10px 22px;
+    font-size: 14px;
+    border-radius: 50px;
+}
+.contact .informations .alert {
+    margin: 0;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*-------------------- resgister --------------------*/
+
+.sign-p {
+    background: #ede020;
+    background: -webkit-linear-gradient(45deg,#ede020 0,#feee00 34%,#feee00 100%);
+    background: -o-linear-gradient(45deg,#ede020 0,#feee00 34%,#feee00 100%);
+    background: linear-gradient(45deg,#ede020 0,#feee00 34%,#feee00 100%);
+    padding: 115px 0;
+    height: auto;
+}
+.sign-p header, .sign-p .footer {
+    display: none;
+}
+.sign-p .login-page {
+    margin-top: 0;
+    max-width: 50%;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15);
+    background: #fff;
+    border-radius: 15px;
+}
+.sign-p .login-page img {
+    width: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.login-page form {
+    max-width: 375px;
+    margin: auto;
+    font: normal normal 12px sky-bold, Fontawesome;
+    padding: 2rem 0 5rem 0;
+}
+
+.login-page form {
+    max-width: 375px;
+    margin: auto;
+    font: normal normal 12px sky-bold, Fontawesome;
+    padding: 2rem 0 5rem 0;
+}
+.login-page form input {
+    margin-bottom: 20px;
+    text-align: right;
+    border-radius: 50px;
+    padding-right: 30px;
+    background: #dddddd85;
+    border: 0;
+    box-shadow: none;
+}
+.login-page form i {
+    height: 0;
+    float: right;
+    position: relative;
+    top: -44px;
+    right: 10px;
+    color: #999;
+}
+.user_imgs {
+    border: 0;
+    box-shadow: none;
+}
+.login-page form select {
+    margin-bottom: 20px;
+    border-radius: 50px;
+    text-align: right;
+}
+
+.login-page form label {
+    position: relative;
+    float: right;
+}
+.login-page form .btn {
+    background: #feee00;
+    border: 0;
+    color: #555;
+    text-align: center;
+    transition: all 250ms ease-in;
+}
+.login-page form a.login_signup {
+    float: right;
+    text-decoration: none;
+    font-size: 13px;
+    color: #1b1919;
+}
+.the-errors {
+    padding-top: 30px;
+    max-width: 375px;
+    margin: auto;
+    font: normal normal 12px sky-bold, Fontawesome;
+}
+.the-errors .msg {
+    border-right: 3px solid #c13c14;
+}
+.the-errors .alert-success {
+    background: transparent;
+    border: 1px solid;
+    font-size: 15px;
+}
+.the-errors .msg, .the-errors .msg-success {
+    background: #fff;
+    color: #febc01;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 5px;
+    border-right: 3px solid #f0d91a;
+    font-size: 14px;
+}
+
+/*----------------------------------------------------------*/
+
+/*-------------- profile ---------------------------------*/
+select.form-control.prof.fot {
+    display: none;
+}
+.information {
+    font: normal normal 12px sky-bold, Fontawesome;
+}
+.profile {
+    margin-top: 18px;
+    padding: 0;
+}
+.profile .alert-danger {
+    background: transparent;
+    border: 1px solid;
+    font-size: 13px;
+}
+.col-md-12.profil {
+    background: #dae2ec;
+    padding: 0;
+    border-radius: 0 0 5px 5px;
+}
+.information .prof {
+    margin-bottom: 85px;
+}
+.information .prof .cover {
+    height: 330px;
+    background: url(../imgs/pexels-photo-948887.jpg) no-repeat center;
+    font: normal normal 15px sky-bold, Fontawesome;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+.profile .links {
+    position: relative;
+    background-color: #1c1f0559;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.profile .breadcrumb {
+    font: normal normal 15px sky-bold, Fontawesome;
+    padding: 0;
+    margin-top: -5px;
+    background: transparent;
+}
+.breadcrumb>li {
+    display: inline-block;
+}
+.profile .breadcrumb a {
+    text-decoration: none;
+    color: #fff;
+}
+.profile .breadcrumb a i {
+    position: relative;
+    left: 5px;
+}
+.profile_photo {
+    right: 10px;
+    position: absolute;
+    transition: bottom .3s;
+    z-index: 3;
+    margin-top: -125px;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+.information .prof .profile_photo img {
+    background-color: #fff;
+    margin-top: 3px;
+    background: #fff;
+    border: 5px solid #fff;
+    border-radius: 35%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.information .prof .name-of-user {
+    right: 222px;
+    position: absolute;
+    transition: bottom .3s;
+    z-index: 3;
+    margin-top: -45px;
+    color: #fff;
+    font: normal normal 23px sky-bold, Fontawesome;
+}
+.col-md-12.profil .col-sm-3 {
+    float: right;
+}
+.profile .panel-info {
+    font: normal normal 15px sky-bold, Fontawesome;
+    text-align: right;
+    border: 0;
+}
+.profile .info .panel-body {
+    text-align: left;
+}
+.profile .panel-info .panel-body ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.profile .panel-info .panel-body ul .Fullnamea {
+    font-size: 24px;
+    border-bottom: 1px solid #8493a84f;
+}
+.profile .panel-info .panel-body ul li {
+    list-style: none;
+    float: right;
+    color: #8493a8;
+    font-weight: bold;
+    font-size: 14px;
+    padding-right: 10px;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.profile .panel-info .panel-body ul li i {
+    position: relative;
+    left: 5px;
+}
+.profile .panel-info {
+    font: normal normal 15px sky-bold, Fontawesome;
+    text-align: right;
+    border: 0;
+}
+.profile .ads .panel-body {
+    text-align: right;
+    margin-right: 15px;
+}
+.information .thumbnail.item-box {
+    border: 1px solid #e8e8e8;
+}
+.information .thumbnail.item-box .approve-status {
+    background: #a94442;
+    color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    font-weight: bold;
+}
+.alert-danger, .alert-success, .alert-info {
+    text-align: right;
+    margin: 30px 0 140px 0;
+    font: normal normal 15px sky-bold, Fontawesome;
+    background: transparent;
+    border: 1px solid;
+}
+.item-box {
+    position: relative;
+    padding: 0;
+    transition: all 250ms ease-in;
+    background: #fff;
+    border-radius: 3px;
+    padding: 8px;
+}
+.item-box .price-tag {
+    background-color: #feee00;
+    color: #1b1919;
+    padding: 5px 10px;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    font-weight: bold;
+}
+.price-tag-minus {
+    background-color: #ecebe5;
+    color: #1b1919;
+    padding: 3px 5px;
+    position: absolute;
+    left: 0;
+    bottom: 45px;
+    font-weight: bold;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+.information .item-box img {
+    max-height: 260px;
+    height: 260px;
+}
+.thumbnail .caption {
+    padding-top: 0;
+}
+.thumbnail .caption {
+    padding: 9px;
+    color: #333;
+}
+.item-box h3 {
+    font: normal normal 15px sky-bold, Fontawesome;
+    text-align: right;
+}
+.item-box h3 a {
+    text-decoration: none;
+    color: #3a495f;
+}
+.thumbnail .date {
+    font-size: 12px;
+    color: #afafaf;
+    text-align: right;
+    margin-bottom: -11px;
+}
+
+.notification {
+    margin: 13px 20px;
+}
+.notification i , .prfo.notifi i {
+    font-size: 20px;
+    line-height: 40px;
+}
+.notification span , .prfo.notifi span {
+    margin: auto;
+    background: #000;
+    color: #feee00;
+    width: 20px;
+    height: 20px;
+    line-height: 23px;
+    font-size: 12px;
+    border: 0;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: -11px;
+}
+
+.prfo.notifi {
+    margin: 21px 20px;
+}
+.prfo span {
+    background: transparent;
+    color: #000;
+    font: normal normal 12px sky-bold, Fontawesome;
+    border-radius: 25px;
+    margin: 20px 0;
+    font-size: 13px;
+    border: 1px solid #000;
+    transition: all 250ms ease-in;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/*--------------- items -----------------------------------*/
+
+.show-items {
+    text-align: right;
+    margin-right: 15px;
+    font: normal normal 15px sky-bold, Fontawesome;
+}
+.show-items .profile {
+    position: relative;
+    margin-top: 0;
+}
+.show-items .items-post {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 25px;
+    width: 100%;
+    margin-left: 1%;
+    margin: 30px 0;
+}
+.show-items .col-md-12 .top {
+    overflow: hidden;
+}
+.show-items .img-items {
+    float: right;
+    width: 45%;
+    margin-left: 2%;
+}
+@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+20% {
+	left: 0;
+}
+
+25% {
+	left: -100%;
+}
+
+45% {
+    left: -100%;
+
+}
+
+50% {
+    left: -200%;
+
+}
+
+70% {
+	left: -200%;
+}
+
+75% {
+	left: -300%;
+}
+
+95% {
+	left: -300%;
+}
+
+100% {
+	left: -500%;
+
+}
+
+}
+#slider {
+    overflow: hidden;
+    height: 340px;
+    direction: initial;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 15s slider infinite;
+    height: 100%;
+}
+#slider figure img {
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+.show-items .info {
+    width: 53%;
+    float: right;
+}
+.show-item {
+    text-align: right;
+    border-right: 3px solid #feee00;
+    padding-right: 20px;
+    font-size: 28px;
+    color: #666;
+    margin: 0;
+}
+.show-items .info h2 {
+    text-align: right;
+    padding: 9px 0;
+    color: #feee00;
+    font-size: 40px;
+}
+
+.items-post .btn {
+    background: #feee00;
+    color: #1b1919;
+    border: 0;
+    margin: 11px 0 10px 0;
+    font: normal normal 12px sky-bold, Fontawesome;
+}
+.items-post .btn i {
+    position: relative;
+    left: 5px;
+}
+.items-post .btn {
+    background: #feee00;
+    color: #1b1919;
+    border: 0;
+    margin: 11px 0 10px 0;
+    font: normal normal 12px sky-bold, Fontawesome;
+}
+.items-post .info li {
+    display: inline-grid;
+    float: right;
+    width: 20%;
+    color: #666;
+}
+
+.show-items .col-md-12 .desc {
+    overflow: hidden;
+    padding: 10px;
+    text-align: right;
+}
+
+.show-items .col-md-12 .desc h1 {
+    font-size: 25px;
+    color: #666;
+    border-bottom: 1px solid #66666652;
+    padding-bottom: 10px;
+}
+
+.show-items .col-md-12 .desc p {
+    color: #666;
+    margin-bottom: 20px;
+}
+.show-items .comments {
+    padding: 25px;
+    margin-bottom: 30px;
+}
+.comment-box {
+    background: #fff;
+    padding: 15px;
+}
+.show-items .comment-box img {
+    width: 60px;
+}
+.comment-box .col-md-11 {
+    float: left;
+    width: 90%;
+}
+
+.comment-box h2 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.comment-box h2 a {
+    font-size: 15px;
+    color: #10386f;
+    text-decoration: none;
+}
+.comment-box p {
+    font-size: 14px;
+    border-right: 3px solid #fbc308;
+    padding-right: 10px;
+}
+.add-comment .alert-success {
+    margin: 0;
+}
+.show-items .postshare {
+    text-align: center;
+    padding: 10px;
+}
+.show-items .postshare h4 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+.show-items .postshare .share-facebook {
+    background: #3b5999;
+}
+.show-items .postshare .share-twitter {
+    background: #55acee;
+}
+.show-items .postshare .share-gplus {
+    background: #dd4b39;
+}
+.show-items .postshare a {
+    width: 100%;
+    display: block;
+    float: right;
+    margin: 5% 0;
+    font-size: 16px;
+    padding: 8px 0 5px 0;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+/*--------- categories --------------------------------*/
+
+ul.subcat {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style-type: none;
+}
+.subcat li {
+    padding: 10px 5px;
+    float: right;
+    margin: 12px 5px;
+    border-radius: 50px;
+    background: #feee00;
+}
+.subcat li a {
+    color: #424242;
+    line-height: 70px;
+    margin-left: 5px;
+    text-decoration: none;
+    font: normal normal 14px sky-bold, Fontawesome;
+    padding: 30px 5px;
+}
+.posts {
+    margin: 30px 0;
+    padding: 10px;
+}
+.posts .alert-danger, .posts .alert-success, .posts .alert-info {
+    text-align: right;
+    margin: 30px 0 140px 0;
+    font: normal normal 15px sky-bold, Fontawesome;
+    background: transparent;
+    border: 1px solid;
+}
+
+
+/*--------------------------------------------------------------------------------*/
+
+/*--------------- products ----------------------------------*/
+
+.col-md-12.homepage {
+    margin-top: 0;
+    padding: 20px 0;
+    border-radius: 5px 5px 0 0;
+    font: normal normal 15px sky-bold, Fontawesome;
+}
+.col-md-12.homepage .prod {
+    margin: 30px 0;
+}
+.title-index {
+    text-align: right;
+    font-size: 22px;
+    color: #f7bd01;
+    border-width: 20px;
+    border-right: 3px solid #feee00;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin: 0;
+}
+.btn {
+    font: normal normal 13px sky-bold, Fontawesome;
+}
+.title-index i {
+    position: relative;
+    left: 10px;
+}
+.col-md-12.homepage .prod form input {
+    border: 0;
+    background: #eee;
+    padding: 5px 20px;
+    font-size: 13px;
+    border-radius: 50px;
+}
+.col-md-12.homepage .prod form i {
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    color: #757575;
+}
+.col-md-12.homepage .items-list {
+    padding: 30px;
+}
+#paging {
+    text-align: center;
+    font: normal normal 15px sky-bold, Fontawesome;
+    color: #10386f;
+}
+#paging a, #paging span {
+    font-size: 20px;
+}
+#paging .btn {
+    border: 0;
+    font-size: 15px;
+    background: #feee00;
+    color: #555;
+}
+/*--------------------------------------------------------------------------*/
+
+/*------------ msgPage --------------------------------------*/
+
+.msgPage {
+    padding: 35px 0;
+    overflow: hidden;
+    font: normal normal 14px sky-bold, Fontawesome;
+}
+.countMsg {
+    margin-bottom: 30px;
+    background: #eee;
+    border-radius: 10px;
+    margin-left: 1%;
+    width: 49%;
+}
+.countMsg h5 {
+    display: -webkit-inline-box;
+    line-height: 2;
+}
+.countMsg span {
+    background: #feee00;
+    padding: 7px 15px;
+    border-radius: 50px;
+    margin-top: 4px;
+}
+.msgPage .table {
+    background: #eee;
+    text-align: right;
+}
+.msgPage .table .title {
+    background: #333;
+    color: #fff;
+}
+.msgPage .table td {
+    border: 1px solid #ddd;
+    padding: 15px 15px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*------------ msg -----------------------------------*/
+.container.msg {
+    padding: 35px 0;
+    overflow: hidden;
+}
+.container.msg .alert-info {
+    margin: 0;
+    color: #555;
+}
+.container.msg .alert-info h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.container.msg .alert-info ul {
+    padding: 0 20px;
+}
+.container.msg .alert-info ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.message-content-receive img, .message-content-send img {
+    width: 50px;
+    float: right;
+    margin-left: 25px;
+    border-radius: 50px;
+    height: 50px;
+}
+.message-content-receive, .message-content-send {
+    font: normal normal 14px sky-bold, Fontawesome;
+    background: #f9f8f8;
+    padding: 25px;
+    border-bottom: 1px solid #55555559;
+}
+.message-content-receive .time-date, .message-content-send .time-date {
+    font-size: 10px;
+}
+
+.message-content-receive .status, .message-content-send .status {
+    font-size: 10px;
+}
+.replyToMsg {
+    font: normal normal 14px sky-bold, Fontawesome;
+    color: #fff;
+}
+.replyToMsg textarea {
+    height: auto;
+    border-radius: 0;
+    border: 0;
+    box-shadow: none;
+    background: #f9f8f8;
+}
+.replyToMsg input[type="submit"] {
+    background: #333;
+    color: #ffffff;
+    width: 20%;
+}
+.replyToMsg input {
+    margin: 15px 0;
+    border: 0;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/*------------ notif ------------------------------*/
+
+.notif {
+    padding: 20px 0;
+}
+.notif .alert-info, .notif .alert-warning, .notif .alert-success, .notif .alert-danger {
+    margin: 15px 0;
+    background: transparent;
+    border: 1px solid;
+    font: normal normal 15px sky-bold, Fontawesome;
+}
+
+
+/*-------------------------------------------------------------*/
+
+
+
+/*-----------------  oredrs  --------------------*/
+.notif .table-responsive {
+    font: 14px sky-bold, Fontawesome;
+}
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.notif .table-responsive .title {
+    background: linear-gradient(32deg,#FFFF00 0,#FFFF33 66%,#FFFF66 88%,#FFFF99 100%);
+    color: #1b1919;
+    font-size: 15px;
+}
+
+.notif .table-responsive td {
+    border: 1px solid #1b191952;
+}
+
+
+/*---------------------------------------------*/
+
+/*---------- statements -------------*/
+
+.balance {
+    font: normal normal 15px sky-bold, Fontawesome;
+}
+.balance span {
+    padding: 45px 0;
+    font-size: 20px;
+}
+.balance h1 {
+    text-align: left;
+    margin: 35px 0;
+}
+.container.balance .alert-success, .container.balance .alert-danger, .container.balance .alert-primary {
+    margin: 0;
+    border: 1px solid;
+    margin-bottom: 30px;
+    background: transparent;
+    padding: 20px 15px;
+    font-size: 16px;
+}
+
+/*------------------------------------*/
+
+/*-------- address ----------------------*/
+
+.terms .info {
+    text-align: right;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.terms .info p {
+    color: #1b1919;
+    line-height: 3;
+    font-size: 13px;
+}
+/*-----------------------------------------*/
+
+
+/*---------- orders --------------------*/
+
+.profile .panel-info label {
+    float: right;
+}
+
+/*----------------------------------------*/
+
+/*------------ message ------------------*/
+
+.contact-with-seller {
+    margin-bottom: 80px;
+    margin-top: 25px;
+    max-width: 66.66666666666666%;
+    display: block;
+    -webkit-box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15);
+    background: #fff;
+    border-radius: 15px;
+    -webkit-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    padding: 0;
+}
+.contact-with-seller h1 {
+    background: #feee00;
+    padding: 14px;
+    color: #555;
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    margin: auto;
+    font: normal normal 20px sky-bold, Fontawesome;
+}
+.contact-with-seller form {
+    max-width: 700px;
+    padding-bottom: 60px;
+    margin: auto;
+    font: normal normal 12px sky-bold, Fontawesome;
+    padding: 2rem 0 5rem 0;
+}
+.contact-with-seller form input, .contact-with-seller textarea {
+    margin-bottom: 20px;
+    text-align: right;
+    border-radius: 50px;
+    padding-right: 30px;
+    background: #dddddd85;
+    border: 0;
+    box-shadow: none;
+}
+
+.contact-with-seller form .btn {
+    background: #feee00;
+    border: 0;
+    color: #555;
+    transition: all 250ms ease-in;
+    text-align: center;
+}
+
+/*---------------------------------------------------------------*/
+
+/*-------------- cart ------------------*/
+
+.contact-with-seller form i {
+    height: 0;
+    float: right;
+    position: relative;
+    top: -44px;
+    right: 10px;
+    color: #999;
+}
+
+/*--------------------------------------------*/
+
+/*---------- error ---------------------*/
+
+.error .alert {
+    text-align: center;
+}
+.error .alert i {
+    font-size: 50px;
+}
+/*--------------------------------*/
+
+/*-------------- rest password --------------------*/
+.restPass {
+    margin-bottom: 80px;
+    margin-top: 25px;
+    max-width: 66.66666666666666%;
+    display: block;
+    -webkit-box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15);
+    background: #fff;
+    border-radius: 15px;
+    -webkit-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    padding: 0;
+}
+.restPass h1 {
+    background: #feee00;
+    padding: 14px;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    margin: auto;
+    font: normal normal 20px sky-bold, Fontawesome;
+}
+.restPass form {
+    max-width: 375px;
+    margin: auto;
+    font: normal normal 12px sky-bold, Fontawesome;
+    padding: 2rem 0 5rem 0;
+}
+
+.restPass form input {
+    margin-bottom: 20px;
+    text-align: right;
+    border-radius: 50px;
+    padding-right: 30px;
+    background: #dddddd85;
+    border: 0;
+    box-shadow: none;
+}
+.restPass form i {
+    height: 0;
+    float: right;
+    position: relative;
+    top: -44px;
+    right: 10px;
+    color: #999;
+}
+.restPass form .btn {
+    background: #feee00;
+    border: 0;
+    transition: all 250ms ease-in;
+}
+.restPass .alert {
+    margin: 0;
+}
+
+
+/*--------------------------------------------------------------------*/
+
+
+/*--------------- search ----------------------*/
+.search .alert-info {
+    margin: 15px 0;
+}
+
+/*-----------------------------------------*/
+
+.yelsto select , .yelstore select , .col-md-12.homepage select{
+    display: none;
+}
+
+
+
+
+/*------  تجاوب الأجهزة  -------*/
+
+@media screen and (max-width : 1200px) {
+    
+.container {width: 90%;}
+.yelsto .main-header .info {width: 40%;}
+.yelsto .main-header .img {width: 55%;}
+.account .acc .col-md-6 .info {width: 65%;}
+.contact-with-seller form {max-width: 90%;} 
+    
+}
+
+@media screen and (max-width : 1080px) {
+    
+.yelsto ul li.nav-item, .yelstore ul li.nav-item {margin: 20px 22px 0 0;}    
+.yelsto ul li.nav-item .nav-link, .yelstore ul li.nav-item .nav-link {font-size: 14px;} 
+.account .acc .col-md-6 .info {width: 60%;}
+.account .acc .col-md-6 {padding: 20px 30px 0 0;}
+    
+}
+
+
+@media screen and (max-width : 990px) {
+    
+.yelsto .main-header .info .title {font-size: 55px;}
+.yelsto .main-header .info {margin: 14vh 0;}
+.yelsto .main-header .img {width: 60%;}
+.yelsto select , .yelstore select{display: block;width: 60%;border: 0;box-shadow: none;margin: 15px 0;padding: 5px 10px ;font: normal normal 14px sky-bold, Fontawesome;}       
+.yelsto .navbar-nav, .yelstore .navbar-nav , .col-md-12.homepage .scatg {display: none;}
+.col-md-12.homepage select {display: block;margin: 15px 0;padding: 6px 13px;height: 45px;background: #feee00;border: 0;box-shadow: none;border-radius: 50px;}
+.account .acc .col-md-6 {width: 100%;height: 33vh;margin-bottom: 20px;}
+.start .text {width: 100%;text-align: center;} 
+.start .img {max-width: 360px;margin: auto;text-align: center;float: none!important;}    
+.col-md-12.homepage .item {width: 50%;float: right;}  
+.col-md-12.homepage .prod form i {top: 110px;}   
+.col-md-12.homepage .search-form form {margin-bottom: 10px;}
+    
+}
+
+
+@media screen and (max-width : 900px) {
+    
+.yelsto {height: 80vh;}
+.yelsto select , .yelstore select{width: 50%;}
+.yelsto .main-header .info {width: 45%;}  
+.yelsto .main-header .info .title {font-size: 50px;}
+.yelsto .main-header .img {width: 53%;}
+.footer__rights .col-md-6 {width: 50%;float: right;}
+.items-post .info li {width: 25%;}  
+#slider {height: 275px;}    
+.comment-box {padding: 5px;}
+.comment-box .col-md-1 {float: right;}
+.comment-box .col-md-11 {width: 85%;}    
+.profile .links {display: none;}   
+select.form-control.prof.fot {display: block;background: #1c1f0559;color: #fff;border: 0;height: 50px;}
+.col-md-12.profil .col-sm-3 ,.col-md-12.profil .col-sm-9 {width: 50%;}   
+.balance span {float: right;}
+.balance h1 {float: left;}    
+
+}
+
+
+
+
+@media screen and (max-width : 768px) {
+    
+.yelsto {height: 115vh;}
+.yelsto .main-header .info , .yelsto .main-header .img {width: 100%;text-align: center;}   
+.yelsto .main-header .img img {width: 80%;height: auto;}
+.yelsto .main-header .info {margin: 10vh 0;}
+.footer .col-sm-4 {width: 50%;}
+.about .col-md-6 img , .protect img {display: none;}
+.terms .img  {margin: auto;float: none!important;} 
+.show-items .img-items , .show-items .info{width: 100%;margin-bottom: 25px;}  
+#slider {height: 350px;}
+.comment-box .col-md-11 {width: 80%;}
+.login-page form {max-width: 85%;}
+.table-responsive {border: 0;}   
+.countMsg {width: 100%;}
+.col-md-12.profil .col-sm-3 {display: none;}  
+.col-md-12.profil .col-sm-9 {width: 100%;}
+.information .item-box img {max-height: 100%;height: auto;}
+.account .acc .col-md-6 {height: 23vh;}
+.yelstore {height: 11vh;}   
+}
+
+
+
+@media screen and (max-width : 736px) {
+    
+.yelsto {height: 130vh;} 
+.yelsto select {width: 40%;float: left;margin-left: 20px ;}   
+.yelsto select, .yelstore select {width: 30%;float: left;margin-left: 10px;margin-top: 25px;}   
+.col-md-12.homepage .item {width: 100%;}
+.comment-box .col-md-11 {width: 75%;} 
+.account .acc .col-md-6 {height: 55vh;}  
+.yelsto {height: 245vh;}  
+.yelstore {height: 25vh;} 
+    
+    
+}
+
+
+
+
+@media screen and (max-width : 580px) {
+    
+.yelsto {height: 120vh;}    
+.yelsto .main-header .info {margin: 7vh 0;}
+.yelsto .main-header .info .desc {font-size: 18px;}      
+.account .acc .col-md-6 p {font-size: 14px;}  
+.account .acc .col-md-6 {padding: 15px 25px 0 0;}
+.account .acc .col-md-6 .info {width: 52%;}   
+.account .acc img {width: 120px;padding: 10px 20px;margin-left: 10px;}
+.account .acc .seller {height: 35vh;}
+.whyYellow h2 {font-size: 29px;} 
+.footer .col-sm-4 {width: 100%;text-align: center;border-bottom: 1px solid #55555538;}
+.col-md-12.homepage .search-form , .col-md-12.homepage .search-form form , .col-md-12.homepage .prod form input{width: 100%;}
+.col-md-12.homepage .search-form form {margin-bottom: 10px;}
+.col-md-12.homepage .prod form i {top: 110px;}
+#slider {height: 320px;}   
+    
+}
+
+
+
+
+
+@media screen and (max-width : 480px) {
+    
+.yelsto select {width: 100%;margin: 0;} 
+.yelsto .top-menu .login .btn {margin: 30px 0;}
+.yelsto .main-header .info .desc {font-size: 16px;}
+.yelsto {height: 110vh;}    
+.yelsto .main-header .info {margin: 5vh 0;}  
+.start .img {max-width: 290px;}
+.top-menu img {width: 110px;}
+#slider {height: 300px;}
+.items-post .info li {width: 100%;margin-bottom: 10px;}  
+.comment-box .col-md-11 {width: 65%;}    
+.information .prof .name-of-user {right: 210px;margin-top: -35px;font: normal normal 19px sky-bold, Fontawesome;}
+.yelstore {height: 15vh;}
+    
+}
+
+
+
+
+@media screen and (max-width : 414px) {
+    
+.yelsto .main-header .info .title {font-size: 42px;}
+.yelsto .main-header .info .desc {font-size: 14px;}   
+.yelsto {height: 115vh;}  
+#slider {height: 250px;}
+.comment-box .col-md-1 {width: 35%;}
+.comment-box .col-md-1 img {width: 100%;}
+.comment-box .col-md-11 {width: 65%;} 
+.account .acc .col-md-6 {height: 30vh;}
+.account .acc .seller {height: 40vh;}    
+    
+    
+}
+
+
+
+@media screen and (max-width : 375px) {
+    
+.notif .alert-info, .notif .alert-warning, .notif .alert-success, .notif .alert-danger {font-size: 13px;}  
+.account .acc img {width: 115px;padding: 35px 20px;}
+.yelsto {height: 120vh;}    
+.account .acc .col-md-6 {height: 35vh;}    
+.notification {margin: 13px 12px;} 
+.prfo.notifi { margin: 20px 12px ;}
+   
+    
+}
+
+
+
+
+
+@media screen and (max-width : 350px) {
+  
+
+
+}
+

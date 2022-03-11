@@ -1,0 +1,531 @@
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.ttf) format('truetype');
+}
+
+@font-face{font-family:'sky-bold';src: url('https://www.fontstatic.com/fonts/sky-bold/sky-bold.eot?#iefix');src: local('السماء ثقيل'), local('sky-bold'),url('https://www.fontstatic.com/fonts/sky-bold/sky-bold.woff') format('woff');}
+
+
+body {
+    background-color: #f4f4f4;
+}
+
+.log-pg img {
+    width: 200px;
+    margin: 0 65px auto;
+}
+.login-page {
+    background: linear-gradient(45deg,#ede020 0%,#f6cd10 0,#FFBA00 100%);
+    padding: 116px 0;
+}
+.log-pg {
+    background: #fff;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    transform: translateY(-4px);
+    box-shadow: 0 2px 30px 0px rgba(0,0,0,0.2);
+}
+.login {
+    width: 300px;
+    margin: 25px auto;
+}
+
+.login input {
+    margin-bottom: 10px;
+    font: normal normal 40px sky-bold, Fontawesome;
+    font-size: 14px;
+    border-radius: 50px;
+}
+.login h4 {
+    margin-bottom: 25px;
+    font: normal normal 40px sky-bold, Fontawesome;
+    color: #666;
+    font-size: 25px;
+}
+
+
+
+/* */
+
+.home-pg {
+    overflow: hidden;
+    height: 100vh;
+}
+.navbar {
+    background: linear-gradient(45deg,#ede020 0,#f6cd10 34%,#ffba00 100%);
+    border-radius: 0;
+    width: 18%;
+    height: 100vh;
+    position: static;
+}
+
+.navbar .header {
+    text-align: center;
+    padding: 30px 0;
+}
+.navbar .header .logo {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar .header .logo img {
+    width: 150px;
+}
+.home-stats {
+    width: 80%;
+}
+
+.home-stats .table {
+    width: 99%;
+    float: right;
+}
+.home-stats .paid {
+    margin: 50px 0 30px 0;
+}
+.app-nav ul {
+    margin: 0;
+    padding: 0;
+    float:left;
+    list-style-type: none;
+}
+.app-nav ul li {
+    padding: 25px;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.app-nav ul li:hover {
+    background: #1b1919;
+}
+.app-nav ul li a:hover{
+    color: #f8ca0e;
+}
+.app-nav ul li a {
+    color: #333;
+    line-height: 70px;
+    margin-left: 5px;
+    text-decoration: none;
+    font: normal normal 15px sky-bold, Fontawesome;
+}
+
+
+h1 {
+    margin: 30px 0;
+    font-weight: bold;
+    color: #f8ca0e;
+    font: normal normal 40px sky-bold, Fontawesome;
+}
+
+.home-stats .prices {
+    overflow: hidden;
+    padding: 100px 0 0 20px;
+    text-align: center;
+}
+
+.form-control {
+    text-align: right;
+}
+
+.form-group .col-sm-10.col-sm-4,.form-group label,.form-group input,.form-group textarea {
+    float: right;
+    font: normal normal 15px sky-bold, Fontawesome;
+}
+.alert-danger,.alert-success,.alert-info {
+    text-align: right;
+    font: normal normal 15px sky-bold, Fontawesome;
+}
+.col-sm-8 {
+    float: right;
+}
+
+.main-table td {
+    background-color: #fff;
+    vertical-align: middle !important;
+}
+
+.main-table tr:first-child td {
+    background: #f8ca0e;
+    color: #fff;
+}
+
+.add-new-member {
+    float: right;
+    font: normal normal 15px sky-bold, Fontawesome;
+}
+
+.add-new-member i {
+    position: relative;
+    left: 4px;
+    top: 4px;
+    float: right;
+}
+.table-bordered,.add-new-member {
+    box-shadow: 0 2px 30px 0px rgba(0,0,0,0.2);
+}
+
+.home-stats .stat {
+    background-color: #fff;
+    box-shadow: 0 2px 30px 0px rgba(0,0,0,0.2);
+    font: normal normal 15px sky-bold, Fontawesome;
+    padding: 20px;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.home-stats .stat span {
+    font-size: 22px;
+    display: block;
+    padding: 5px 0;
+}
+
+.home-stats .col-md-2 {
+    width: 20%;
+}
+
+.home-stats .st-members {
+    
+    background: linear-gradient(45deg,#fd3fb3 0,#fd3f81 30%,#fd3e4f 79%);
+
+}
+
+.home-stats .st-items {
+    
+    background: linear-gradient(135deg,#ff89d4 0,#f566ea 38%,#eb42ff 79%);
+    
+}
+
+.home-stats .st-comments {
+    
+    background: linear-gradient(135deg,#00deff 0,#02caff 56%,#03b5ff 100%);
+}
+
+
+.home-stats .col-md-4 {
+    margin-left: 19px;
+    width: 31.5%;
+    font-size: 31px;
+}
+
+.latest {
+    margin-top: 30px;
+    
+}
+
+.latest .panel-default {
+    text-align: right;
+    font: normal normal 15px sky-bold, Fontawesome;
+}
+
+.panel-heading i {
+    position: relative;
+    float: right;
+    right: 5px;
+    top: 5px;
+    left: 5px;
+}
+
+.latest-users {
+    text-align: left;
+    margin-bottom: 0; 
+}
+
+.latest-users li {
+    padding: 6px;
+    overflow: hidden;
+}
+
+.latest-users li:nth-child(odd){
+    
+    background-color: #eee;
+}
+.latest-users .btn-success, .latest-users .btn-info {
+ 
+    padding: 3px 10px;
+}
+.latest-users .btn-info {
+    
+   margin-right: 5px;    
+}
+
+.latest-users span i {
+    position: relative;
+    right: 5px;
+    top: 2px;
+}
+
+.latest .comment-box {
+    margin: 5px 0 10px;; 
+}
+
+.latest .comment-box .member-n,
+.latest .comment-box .comment-c{
+    float: right;
+}
+.latest .comment-box .comment-c {
+    width: calc(90% - 100px);
+    background-color: #f7cc0f;
+    color: #333;
+    padding: 10px;
+    position: relative;
+}
+.latest .comment-box .comment-c:before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -30px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent transparent #f7cc0f;
+    border-width: 15px;
+    
+}
+.latest .comment-box .member-n {
+    margin-bottom: 10px;
+    width: 200px;
+}
+.latest .comment-box .member-n a {
+    text-decoration: none;
+    color: #333;
+}
+/* */
+
+.vis_yes,.com_yes,.ads_yes {
+    margin-left: 10px;
+}
+
+#vis_yes,#com_yes,#ads_yes,#vis_no,#com_no,#ads_no {
+    margin-left: 5px;
+}
+
+
+.search-form {
+    font: normal normal 15px sky-bold, Fontawesome;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-form input {
+    border: 0;
+    width: 50%;
+    height: 40px;
+    text-align: right;
+    padding: 0 15px;
+    box-shadow: 0 2px 30px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.search-form .fa {
+    position: relative;
+    right: 49%;
+    color: #f7cc0f;
+}
+
+
+
+/* */
+
+
+.categories .panel-default {
+    text-align: right;
+    font: normal normal 15px sky-bold, Fontawesome;
+}
+
+.categories .cat:last-of-type ~ hr {
+    
+    display: none;
+}
+
+.categories .panel-body{
+    padding: 0;
+}
+.categories .cat {
+    padding: 15px;
+}
+.categories .cat:hover {
+    background: #eee;
+}
+.categories hr {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.categories .hidden-buttons {
+    margin: 20px 0;
+}
+.categories .cat .visiblilty {
+    color: #e74c3c;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid #e74c3c;
+}
+
+.categories .cat .commenting {
+    color: #2c3e50;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid #2c3e50;
+}
+
+.categories .cat .advertises {
+    color: #f39c12;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid #f39c12;
+}
+.hidden-buttons .btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.hidden-buttons .btn i {
+    position: relative;
+    right: 5px;
+    top: 2px;
+}
+
+
+.categories .ordering a {
+    color: #000;
+    text-decoration: none;
+}
+
+.categories .ordering  .active {
+    color: #237eee;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.add-categories {
+    margin-bottom: 20px;
+    font: normal normal 15px sky-bold, Fontawesome;
+}
+.add-categories i {
+    position: relative;
+    right: 5px;
+    top: 3px;
+}
+.table-bordered td {
+  font: normal normal 15px sky-bold, Fontawesome;
+}
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: right;
+}
+
+/* */
+
+
+.manage-members img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.footer {
+    background: #f7cc0f;
+    padding: 10px;
+    text-align: center;
+    font: normal normal 15px sky-bold, Fontawesome;
+}
+
+.footer h4 {
+    color: #333;
+    font-size: 15px;
+}
+
+
+
+
+/* */
+
+
+.home-stats .plan {
+    width: 990px;
+    overflow: hidden;
+    margin-bottom: 2vh;
+    padding:70px 0; 
+}
+
+.prices {
+    text-align: right;
+    font: normal normal 15px sky-bold, Fontawesome;
+}
+
+.prices h1 {
+    font-size: 22px;
+}
+
+.prices ul {
+    list-style-type: none;
+}
+
+.prices ul li span {
+    color: #f8ca0e;
+    padding: 0 10px;
+}
+
+a.btn.btn-primary.print {
+    font: normal normal 15px sky-bold, Fontawesome;
+    border: 0;
+    margin-bottom: 38vh;
+    float: right;
+    background: #f8ca0e;
+    box-shadow: none;
+    color: #333;
+}
+
+.home-stats .alert-danger {
+    width: 99%;
+    float: right;
+    margin: 45px 0;
+}
+
+
+
+/* */
+
+
+.home-stats .col-sm-10 {
+    width: 80%;
+}
+
+.home-stats .alert-success {
+    margin-top: 60px;
+}
+
+/* ----------   --------- */
+
+.myBalance {
+    background: #fff;
+    border: 1px solid;
+    width: 95%;
+    margin: auto;
+}
